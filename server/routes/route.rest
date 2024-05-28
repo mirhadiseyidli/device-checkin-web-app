@@ -1,0 +1,33 @@
+GET http://127.0.0.1:3001/devices
+
+
+###
+
+
+GET http://127.0.0.1:3001/devices/mfg-line-27
+
+
+###
+
+
+POST http://127.0.0.1:3001/devices
+Content-Type: application/json
+
+{
+    "hostname": "mfg-line-28",
+    "ip": "10.110.9.29"
+}
+
+
+###
+
+DELETE http://127.0.0.1:3001/devices/mfg-line-28
+
+###
+
+PATCH http://127.0.0.1:3001/devices/mfg-line-28
+Content-Type: application/json
+
+{
+    "ip": "10.110.9.30"
+}
