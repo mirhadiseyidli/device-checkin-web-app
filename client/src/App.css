@@ -1,0 +1,109 @@
+.table {
+    display: table;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: flex;
+    min-width: 1000px;
+}
+
+.table-row {
+    display: table-row;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+  }
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+    min-width: 1000px;
+}
+
+.header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+}
+
+.search {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination-button:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.deviceStatus {
+    margin: 0;
+    padding: 0;
+}
+
+.deviceStatus.online {
+    color: green;
+}
+  
+  .deviceStatus.offline {
+    color: red;
+}
+  
